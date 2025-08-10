@@ -1,4 +1,8 @@
-
+<div align="center">
+  <img src="etc/TEA.png" alt="Explanation Distillation" width="200">
+  <br>
+  <h1><strong>Training With Explanations Alone</strong></h1>
+</div>
 
 Bias and spurious correlations in data can cause shortcut learning, undermining out-of-distribution (OOD) generalization in deep neural networks. Most methods require unbiased data during training (and/or hyper-parameter tuning) to counteract shortcut learning. **We propose the use of explanation distillation to hinder shortcut learning, improving bias robustness and out-of-distribution generalization.** Benefits:
 - Explanation distillation **needs no unbiased data for training or validation**. You do not need to known which samples have spurious correlations. In fact, **100% of your dataset can be biased!** You just need an unbiased teacher, like pipeline where one network segments the image foreground and the other classifies the segmented image
