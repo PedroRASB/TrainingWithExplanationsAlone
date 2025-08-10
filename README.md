@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="etc/TEA_method.png" alt="Explanation Distillation" width="200">
+  <img src="etc/TEA_method.png" alt="Explanation Distillation" width="600">
   <br>
   <h1><strong>Training With Explanations Alone</strong></h1>
 </div>
