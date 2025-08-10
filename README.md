@@ -1,7 +1,7 @@
 <div align="center">
   <img src="etc/dog.png" alt="Explanation Distillation" width="200">
   <br>
-  <h1><strong>Explanation Distillation</strong></h1>
+  <h1><strong>Training With Explanations Alone</strong></h1>
 </div>
 
 Bias and spurious correlations in data can cause shortcut learning, undermining out-of-distribution (OOD) generalization in deep neural networks. Most methods require unbiased data during training (and/or hyper-parameter tuning) to counteract shortcut learning. **We propose the use of explanation distillation to hinder shortcut learning, improving bias robustness and out-of-distribution generalization.** Benefits:
